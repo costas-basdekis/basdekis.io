@@ -108,13 +108,34 @@ p
 
 .sidebar-nav
 {
-  position:absolute;
-  top:0;
+  /*position:absolute;*/
+  /*top:0;*/
   width:250px;
   list-style:none;
   margin:0;
   padding:30px 0 0;
   margin-left: -20px;
+}
+
+.circular {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+
+.me-image-wrapper {
+  position: relative;
+  left: 50%;
+  float: left;
+  margin: 1em 0;
+}
+
+.me-image {
+  position: relative;
+  left: -50%;
+  width: 100px;
 }
 
 .sidebar-nav li
@@ -720,9 +741,11 @@ time
     border-top: none;
     left: 0px;
 }
- .nav-toggle {
-    display: ;
-  }
+
+.nav-toggle {
+  display: ;
+}
+
 #wrapper.active {
   position: relative;
   left: 250px;

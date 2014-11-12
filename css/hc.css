@@ -1,5 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
+.text-outline {
+  text-shadow: 0 0 8px black, 0 0 8px black, 0 0 8px black, 0 0 8px black, 0 0 8px;  
+}
 
 body
 {
@@ -286,7 +289,6 @@ pre
   color:#fff;
   text-align:center;
   padding-top:1em;
-  text-shadow: 0 0 8px black, 0 0 8px black, 0 0 8px black, 0 0 8px black, 0 0 8px;
 }
 
 .showcase-text a
@@ -489,7 +491,7 @@ time
   -moz-box-shadow:inset 0 -10px 5px -2px rgba(119,119,119,0.35);
   -webkit-box-shadow:inset 0 -10px 5px -2px rgba(119,119,119,0.35);
   border-bottom:solid 1px #fff;
-  background-image:url(http://lorempixel.com/900/200/);
+  background-image:url(/images/leaf.png);
   background-size: cover;
   z-index:-4;
   margin-top:-55px;

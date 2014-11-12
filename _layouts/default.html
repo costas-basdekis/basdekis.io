@@ -1,8 +1,10 @@
 ---
 title: basdekis.io
 ---
+{% assign page = site.posts.first %}
+{% assign content = page.content %}
+
 {% include header.html %}
 {% include showcase.html %}
-{% include greeting.html %}
-{{ content }}
+{% include post.html %}
 {% include footer.html %}

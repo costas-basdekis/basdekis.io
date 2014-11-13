@@ -1,5 +1,5 @@
   <div id="article">
-   <div class="article-title">{{ page.title }}</div>
+   <div class="article-title"><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></div>
    <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i> {{ page.date | date_to_string}}</small></p> <hr/>
    <div class="post">
      {{ content }}

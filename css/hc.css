@@ -125,17 +125,22 @@ p
   -moz-border-radius: 50%;
 }
 
-.me-image-wrapper {
+#sidebar-wrapper .me-image-wrapper {
   position: relative;
   left: 50%;
   float: left;
   margin: 1em 0;
 }
 
-.me-image {
+#sidebar-wrapper .me-image {
   position: relative;
   left: -50%;
   width: 100px;
+}
+
+.user-card .me-image {
+  margin-left: 10%;
+  margin-top: 10%;
 }
 
 .sidebar-nav li

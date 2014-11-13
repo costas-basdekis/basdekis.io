@@ -2,7 +2,7 @@ name: basdekis.io
 author: Costas Basdekis
 markdown: redcarpet
 highlighter: pygments
-baseurl: 
+baseurl: http://blog.basdekis.io 
 description: Architect it till you make it
 github: http://www.github.com/costas-basdekis
 twitter: https://twitter.com/basdekisc

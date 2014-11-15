@@ -4,6 +4,8 @@ set -e
 
 BASEDIR=$(dirname $0)
 
+date
+
 cd $BASEDIR
 
 git add -A

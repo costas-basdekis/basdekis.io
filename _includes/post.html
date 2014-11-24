@@ -4,6 +4,12 @@
    <div class="post">
      {{ content }}
    </div>
+   <div class="tags">
+    {% for tag in page.tags %}
+      <span class="btn btn-success">{{ tag }}</span>
+      {% if forloop.last == false %},{% endif %}
+    {% endfor %}
+   </div>
  </div>
 
 
